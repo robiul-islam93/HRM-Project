@@ -1,0 +1,79 @@
+/* Style for the form container */
+#addEmployeeForm {
+  margin: 20px; /* Adjust margin as needed */
+}
+
+/* Style for the form sections */
+.portlet {
+  margin-bottom: 20px; /* Adjust margin as needed */
+  border: 1px solid #ddd; /* Add border to each section */
+  border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+  padding: 15px; /* Optional: Add padding for better spacing */
+}
+
+/* Style for the form labels */
+.control-label {
+  font-weight: bold;
+}
+
+/* Style for the form input fields */
+.form-control {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+/* Style for the file input */
+.fileinput {
+  margin-bottom: 15px;
+}
+
+/* Style for the buttons */
+.btn {
+  margin-right: 10px;
+}
+
+/* Style for the form actions */
+.form-actions {
+  margin-top: 20px;
+}
+
+/* Style for the form group */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Style for the labels within the form group */
+.form-group label {
+  margin-top: 8px;
+}
+
+/* Style for the clearfix */
+.clearfix {
+  clear: both;
+}
+/* Style for the Personal Details card header */
+.portlet.purple-wisteria .portlet-title .caption {
+  background-color: #8e44ad; /* Purple-Wisteria color */
+  color: #fff;
+  padding: 15px;
+  /* White text color */
+}
+
+/* Style for the Company Details card header */
+.portlet.red-sunglo .portlet-title .caption {
+  background-color: #e74c3c; /* Red-Sunglo color */
+  color: #fff;
+  padding: 15px;
+  /* White text color */
+}
+
+/* Style for the Documents card header */
+.portlet.purple-wisteria .portlet.box.purple-wisteria .portlet-title .caption,
+.portlet.red-sunglo .portlet.box.red-sunglo .portlet-title .caption {
+  background-color: #3498db; /* Blue color */
+  color: #fff;
+  padding: 15px;
+  /* White text color */
+}
